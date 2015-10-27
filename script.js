@@ -9,4 +9,7 @@ let randomWord = "";
 let winCount = 0;
 let lossCount = 0;
 
+const showResult = () => {
+  controls.classList.remove("hide");
+};
 
