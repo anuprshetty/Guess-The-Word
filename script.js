@@ -13,3 +13,8 @@ const showResult = () => {
   controls.classList.remove("hide");
 };
 
+startBtn.addEventListener("click", () => {
+  controls.classList.add("hide");
+  init();
+});
+
